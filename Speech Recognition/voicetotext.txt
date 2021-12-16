@@ -18,7 +18,7 @@ except Exception as ex:
 
 #Automate mails:
 
-reciever='akshayviswa9876@gmail.com'
+reciever= #Type reciever's e-mail id
 message=text
-sender=yagmail.SMTP('viswanathantm1970@gmail.com')
+sender=yagmail.SMTP(#Type sender's e-mail id)
 sender.send(to=reciever,subject='This is an automated mail',contents=message)    
